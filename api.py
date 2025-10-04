@@ -17,7 +17,7 @@ def replace_nan_with_none(obj):
     return obj
 
 # --- Configuration ---
-LIVE_API_URL = "https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key=A0wBZOxsEVxb2KpmPzEZckmfjtvybBTh"
+LIVE_API_URL = "https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key=yourkey"
 
 # --- Initialize the Flask App ---
 app = Flask(__name__)
@@ -229,3 +229,4 @@ def get_realtime_trip_plan():
 # --- Main execution block ---
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
+
