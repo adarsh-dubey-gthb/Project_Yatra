@@ -1,5 +1,5 @@
 # SmartBus Delhi: Real-Time Bus Tracking & Predictive ETA
-
+#Refer to my dataset for the data that we will use to make this project , some data set are missing because they are so large to upload here - https://www.kaggle.com/datasets/adarshdubey001/delhi-bus-transit-data-enhanced-for-ml
 ## Project Overview
 
 Welcome to **SmartBus Delhi**, an innovative project designed to revolutionize the public bus transit experience in Delhi. This application provides real-time bus tracking, highly accurate Estimated Times of Arrival (ETAs) powered by machine learning, and an intelligent trip planning system that accounts for live traffic conditions.
@@ -100,5 +100,6 @@ We welcome contributions to the SmartBus Delhi project! If you have suggestions 
 
 License
 This project is open-source and available under the MIT License.
+
 
 
