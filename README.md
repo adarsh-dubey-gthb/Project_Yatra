@@ -65,19 +65,40 @@ To get this project up and running locally, follow these steps:
 * A Mapbox Access Token (free tier available)
 * Access to the Delhi OTD GTFS static and GTFS-Realtime API endpoints.
 
-### 1. Clone the Repository
+.....
 
-```bash
-git clone [https://github.com/adarsh-dubey-gthb/SmartBus-Delhi.git](https://github.com/adarsh-dubey-gthb/SmartBus-Delhi.git)
-cd SmartBus-Delhi/sih_project
 
-### 2. Backend Setup (Python ML API)
-Navigate to the api directory and set up the Python environment.
+Research and References
+Our project is built upon rigorous research and utilization of established standards and tools:
 
-Bash
+Delhi Open Transit Data (OTD) Portal: https://otd.delhi.gov.in/
 
-cd api
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
+General Transit Feed Specification (GTFS): https://developers.google.com/transit/gtfs
+
+GTFS-Realtime: https://developers.google.com/transit/gtfs-realtime
+
+Mapbox Geocoding API: https://docs.mapbox.com/api/search/geocoding/
+
+LightGBM Official Documentation: https://lightgbm.readthedocs.io/
+
+Scikit-learn User Guide: https://scikit-learn.org/stable/user_guide.html
+
+Pandas & NumPy Documentation: https://pandas.pydata.org/docs/ | https://numpy.org/doc/
+
+Flask Documentation: https://flask.palletsprojects.com/
+
+Express.js Official Website: https://expressjs.com/
+
+LightGBM Academic Paper: https://proceedings.neurips.cc/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf
+
+Haversine Formula: https://en.wikipedia.org/wiki/Haversine_formula
+
+Microservice Architecture: https://martinfowler.com/articles/microservices.html
+
+Contributing
+We welcome contributions to the SmartBus Delhi project! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
+
+License
+This project is open-source and available under the MIT License.
+
 
